@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="static/bootstrap/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" />
+    <title>Tracking</title>
+
+    <style>
+        .head-bg {
+            background-image: url('https://cdn.discordapp.com/attachments/387191314552455192/713615300100227142/61802.jpg');
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid head-bg">
+        <div class="container text-center text-md-left">
+            <div style="padding-top: 88px;"></div>
+            <h1 class="font-weight-bold">Tracking</h1>
+            <h4>ติดตามสถานะยาเฉพาะราย</h4>
+            <form method="GET">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="HN" name="HN"
+                                placeholder="Enter 'Hospital Number (HN)' to track.">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <hr>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-body card-text">
+                        <b>หมายเลข HN:</b> FJ2595<br>
+                        <b>ผู้สั่งยา:</b> %<br>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                        <!-- timeline item 1 -->
+                        <div class="row">
+                            <!-- timeline item 1 left dot -->
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2">
+                                    <span class="badge badge-pill bg-warning">&nbsp;</span>
+                                </h5>
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <!-- timeline item 1 event content -->
+                            <div class="col py-2">
+                                <div class="card border-warning">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">กำลังดำเนินการ</div>
+                                        <h4 class="card-title text-muted">ผอ.อนุมัติให้จัดซื้อยา</h4>
+                                        <p class="card-text">**Description**</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/row-->
+                        <!-- timeline item 2 -->
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2">
+                                    <span class="badge badge-pill bg-success">&nbsp;</span>
+                                </h5>
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card border-success shadow">
+                                    <div class="card-body">
+                                        <div class="float-right text-success">23/05/2020 11:30 AM</div>
+                                        <h4 class="card-title text-success">หัวหน้างานเภสัชกรรมอนุมัติ</h4>
+                                        <p class="card-text">**Description**</p>
+                                        <button class="btn btn-sm btn-outline-secondary" type="button"
+                                            data-target="#t2_details" data-toggle="collapse">Show Details ▼</button>
+                                        <div class="collapse border" id="t2_details">
+                                            <div class="p-2 text-monospace">
+                                                <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                                <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                                <div>10:30 - 10:45 Break</div>
+                                                <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/row-->
+                        <!-- timeline item 3 -->
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2">
+                                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                </h5>
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">23/05/2020 8:30 AM</div>
+                                        <h4 class="card-title">อยู่ในระหว่างการดำเนินการ</h4>
+                                        <p>**Description**</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/row-->
+                        <!-- timeline item 4 -->
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2">
+                                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                </h5>
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">22/05/2020 11:30 AM</div>
+                                        <h4 class="card-title">รับเอกสารจากภาควิชา</h4>
+                                        <p>**Description**</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/row-->
+
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="static/jquery-3.5.1.min.js"></script>
+    <script src="static/popper-1.16.0.min.js"></script>
+    <script src="static/bootstrap/bootstrap.min.js"></script>
+</footer>
+
+</html>
